@@ -1,0 +1,66 @@
+{
+  "$schema": "https://schema.tauri.app/config/2",
+  "productName": "Kimi",
+  "version": "0.1.0",
+  "identifier": "com.kimi.desktop-manager",
+  "build": {
+    "beforeDevCommand": "npm run dev",
+    "devUrl": "http://localhost:1420",
+    "beforeBuildCommand": "npm run build",
+    "frontendDist": "../dist"
+  },
+  "app": {
+    "windows": [
+      {
+        "label": "main",
+        "title": "Kimi",
+        "width": 900,
+        "height": 650,
+        "resizable": true,
+        "center": true,
+        "decorations": false,
+        "transparent": false
+      },
+      {
+        "label": "tray-menu",
+        "title": "",
+        "width": 200,
+        "height": 240,
+        "resizable": false,
+        "decorations": false,
+        "transparent": true,
+        "visible": false,
+        "skipTaskbar": true,
+        "alwaysOnTop": true,
+        "focus": false,
+        "url": "index.html#tray",
+        "shadow": false
+      }
+    ],
+    "security": {
+      "csp": null
+    }
+  },
+  "bundle": {
+    "active": true,
+    "targets": "all",
+    "icon": [
+      "icons/32x32.png",
+      "icons/128x128.png",
+      "icons/128x128@2x.png",
+      "icons/icon.icns",
+      "icons/icon.ico"
+    ],
+    "windows": {
+      "nsis": {
+        "installerIcon": "icons/icon.ico",
+        "languages": ["Russian", "English"],
+        "displayLanguageSelector": true,
+        "installMode": "currentUser",
+        "installerHooks": "nsis/hooks.nsh"
+      }
+    },
+    "shortDescription": "Менеджер рабочего стола",
+    "longDescription": "Kimi - удобный менеджер рабочего стола для Windows"
+  }
+}

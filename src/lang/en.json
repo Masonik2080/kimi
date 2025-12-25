@@ -1,0 +1,71 @@
+{
+  "app": {
+    "name": "Kimi"
+  },
+  "header": {
+    "title": "Desktops",
+    "subtitle": "Switch between desktops"
+  },
+  "actions": {
+    "refresh": "Refresh",
+    "reset": "Reset",
+    "create": "Create",
+    "delete": "Delete"
+  },
+  "desktop": {
+    "files": "files",
+    "active": "Active",
+    "name": "Desktop"
+  },
+  "empty": {
+    "title": "No desktops",
+    "createFirst": "Create first"
+  },
+  "errors": {
+    "cannotDeleteLast": "Cannot delete the last desktop",
+    "cannotDeleteActive": "Cannot delete active desktop"
+  },
+  "footer": {
+    "info": "C:\\Kimi • Max 20"
+  },
+  "faq": {
+    "title": "How does it work?",
+    "items": [
+      {
+        "q": "What is Kimi?",
+        "a": "Kimi creates separate workspaces with their own desktop files and windows. Each workspace is isolated from others."
+      },
+      {
+        "q": "Where are files stored?",
+        "a": "Files are stored in C:\\Kimi\\Desktop1, Desktop2, etc. When you switch workspace, Windows shows files from the corresponding folder."
+      },
+      {
+        "q": "What about open windows?",
+        "a": "Kimi uses Windows Virtual Desktops. When you switch workspace, windows from other workspaces are hidden from taskbar."
+      },
+      {
+        "q": "Is it safe?",
+        "a": "Yes! Kimi doesn't hide or delete anything. If you close Kimi, click 'Reset' to restore your original desktop."
+      },
+      {
+        "q": "Can I use Win+Tab?",
+        "a": "Yes, Kimi syncs with Windows Virtual Desktops. You can switch using Win+Ctrl+Left/Right too."
+      }
+    ]
+  },
+  "settings": {
+    "title": "Settings",
+    "autostart": "Autostart",
+    "autostartEnabled": "Start with Windows",
+    "autostartHint": "Kimi will automatically start when you log in",
+    "hotkeys": "Hotkeys",
+    "hotkeyEnabled": "Enable hotkeys",
+    "hotkeyModifier": "Modifier",
+    "modifierAlt": "Alt",
+    "modifierCtrlAlt": "Ctrl + Alt",
+    "modifierCtrlShift": "Ctrl + Shift",
+    "hotkeyHint": "Use selected modifier + 1-9 to switch desktops",
+    "save": "Save",
+    "close": "Close"
+  }
+}
