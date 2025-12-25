@@ -67,7 +67,9 @@ Kimi combines two approaches:
 | Technology | Native Windows API + Rust | Legacy COM hooks |
 | Virtual Desktops | Uses built-in Windows 10/11 virtual desktops | Custom implementation, conflicts with Windows |
 | Icon positions | Saved per desktop, restored instantly | Often loses positions, lags |
-| Memory | ~15 MB | ~50-100 MB |
+| CPU | 0% idle | 1-5% constantly |
+| Memory | ~10 MB | ~50-100 MB |
+| Size | 9.5 MB | ~30 MB |
 | Updates | Active development | Abandoned since 2017 |
 
 ## Technical Details
