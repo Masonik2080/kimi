@@ -136,4 +136,4 @@ npm run tauri build
 
 ## License
 
-MIT
+[CC0 1.0](LICENSE) — Public Domain

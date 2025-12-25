@@ -136,4 +136,4 @@ npm run tauri build
 
 ## Лицензия
 
-MIT
+[CC0 1.0](LICENSE) — Общественное достояние
